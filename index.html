@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Treemap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerador de Treemap</h1>
+    <table>
+        <tr><td><p>Rótulo do elemento</p></td><td><p>Porcentagem Territorial (apenas os números)</p></td><td><p>Porcentagem Desmatamento (apenas os números)</p></td></tr>
+        <tr><td><input id="nomeUm" type="text"></td><td><input id="porUm" type="number"></td><td><input id="porcUm" type="number"></td></tr>
+        <tr><td><input id="nomeDois" type="text"></td><td><input id="porDois" type="number"></td><td><input id="porcDois" type="number"></td></tr>
+        <tr><td><input id="nomeTres" type="text"></td><td><input id="porTres" type="number"></td><td><input id="porcTres" type="number"></td></tr>
+        <tr><td><input id="nomeQuatro" type="text"></td><td><input id="porQuatro" type="number"></td><td><input id="porcQuatro" type="number"></td></tr>
+        <tr><td><input id="nomeCinco"  type="text"></td><td><input id="porCinco" type="number"></td><td><input id="porcCinco" type="number"></td></tr>
+        <tr><td><input id="nomeSeis"  type="text"></td><td><input id="porSeis" type="number"></td><td><input id="porcSeis" type="number"></td></tr>
+    </table>
+    <div class="rotulo">
+        <p>As cores  medem a intensidade de desmatamento, enquanto os tamanhos são as porcentagens territoriais em relação ao total.</p>
+    </div>
+    <div class="rot" >
+        <div class="leg"><p>Entre 100% e 90%<div class="corUm"></div></p></div><div class="leg"><p>Entre 90% e 30%<div class="corDois"></div></p></div>
+        <div class="leg"><p>Entre 30% e 25%<div class="corTres"></div></p></div><div class="leg"><p>Entre 25% e 20%<div class="corQuatro"></div></p></div>
+        <div class="leg"><p>Entre 20% e 15%<div class="corCinco"></div></p></div><div class="leg"><p>Entre 20% e 15%<div class="corSeis"></div></p></div>
+        <div class="leg"><p>Para lugares onde o desmatamento caiu<div class="corSete"></div></p></div>
+    </div>
+    <button onclick = "criaMapa()">Gerador</button>
+    <div id="treemap" class="container">
+    <div class="quad" id="um"></div><div class="quad" id="dois"></div><div class="quad" id="tres"></div>
+    <div class="quad" id="quatro"></div><div class="quad" id="cinco"></div>
+    <div class="quad" id="seis"></div>
+    
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+    
+</html>

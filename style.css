@@ -1,0 +1,133 @@
+h1{
+    text-align: center;
+    height: 5%;
+    color: rgb(24, 109, 169);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    background-color: aquamarine;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px 20px 10px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#treemap {
+    display: none;
+    background-color: rgb(1, 1, 9);
+    color: black;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.quad{
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+.rotulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    flex: 1 1 0;
+}
+
+.corUm{
+    width: 10px;
+    height: 10px;
+    background-color:#4B0082;
+}
+
+.corDois{
+    width: 10px;
+    height: 10px;
+    background-color:#B22222;
+}
+.corTres{
+    width: 10px;
+    height: 10px;
+    background-color:#FF0000;
+}
+
+.corQuatro{
+    width: 10px;
+    height: 10px;
+    background-color:#FF6347;
+}
+
+.corCinco{
+    width: 10px;
+    height: 10px;
+    background-color:#FFA07A;
+}
+
+.corSeis{
+    width: 10px;
+    height: 10px;
+    background-color:#FFC0CB;
+}
+
+.corSete{
+    width: 10px;
+    height: 10px;
+    background-color:#ADFF2F;
+}
+
+.rot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    align-content: center;
+
+}
+
+.leg{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+p {
+    padding: 10px;
+}
+
+
+
+
+
